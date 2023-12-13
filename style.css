@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Bizmo Trial";
+    src: url("fonts/Bizmo\ Trial-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Small Print";
+    src: url("fonts/SmallPrint-PKYXr.otf") format("opentype");
+}
+@font-face {
+    font-family: "Sudo Var";
+    src: url("fonts/SudoVariable.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Pequena Pro";
+    src: url("fonts/PequenaPro-Regular.ttf") format('truetype');
+}
+
+#home-section{
+    /* background-image: url("images/albion1.jpeg");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    background-attachment: fixed; */
+    height: 800px;
+}
+#myVideo{
+    object-fit: cover;
+    height: 800px;
+    width: 100%;
+    background-position: bottom;
+    position: absolute;
+    z-index: -1;
+}
+.nav-edits{
+    font-family: "Small Print";
+    font-size: 30px;
+}
+.mah-title{
+    font-family: "Bizmo Trial";
+}
+.mah-logo{
+    width: 45px;
+    height: 45px;
+}
+/* .wc-title{
+    font-family: "Bizmo Trial";
+    font-size: 130px;
+    color: rgb(42, 116, 134);
+    text-align: center;
+    -webkit-animation: example 7.61s linear;
+    animation: example 7.61s linear;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+@-webkit-keyframes example {
+    70% {opacity: 0;}
+    95% { opacity: 1; }
+  }
+@keyframes example {
+    70% {opacity: 0;}
+    95%   {opacity:1;}
+} */
+.title-bg{
+    height: 700px;
+    width: 100%;
+}
+.au-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Small Print";
+    letter-spacing: 5px;
+}
+.cgm-title{
+    font-size: 30px;
+}
+.anecdote-div{
+    text-align: justify;
+}
+.anecdote-span{
+    font-family: "Pequena Pro";
+    font-size: 35px;
+    color: rgba(2, 2, 1, 0.473);
+    word-spacing: 10px;
+}
+.tab-spc {
+    display: inline-block;
+    margin-left: 4em;
+}
+.founder-card{
+    width: 18rem;
+}
+.founder-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+.card-text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Bizmo Trial";
+}
+
+/* TIMELINE */
+.timeline-ul{
+    list-style-type: square;
+}
+.timeline-span{
+    font-size: 17px;
+}
+#gallery-bg-video{
+    width:100%;
+    height:780px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-inner{
+    height: 1000px;
+}
+.carousel-img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.myClass{
+    background-color: transparent;
+    background: red !important;
+
+}
