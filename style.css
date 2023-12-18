@@ -118,7 +118,7 @@
 }
 
 .carousel-inner{
-    height: 1000px;
+    height: 700px;
 }
 .carousel-img{
     object-fit: cover;
@@ -129,4 +129,107 @@
     background-color: transparent;
     background: red !important;
 
+}
+.my-videos{
+    width: 50vh;
+
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .carousel-inner{
+        height: 100%;
+    }
+}
+/* Large devices (desktops, 992px and below) */
+@media (max-width: 992px) { 
+    .my-videos{
+        width: 90vh;
+    }
+    #gallery-bg-video{
+        height:500px;
+    }
+    .carousel-inner{
+        height: 100%;
+    }
+    .nav-edits > a{
+        text-align: center;
+    }
+    .nav-edits > a:hover{
+        background-color: rgba(44, 43, 46, 0.829);
+        color: white;
+    }
+    div#navbarNavAltMarkup {
+        background-color: rgba(29, 27, 27, 0.795);
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(10, 8, 8, 0.55);
+    }
+    .nav-link:hover{
+        color: rgba(194, 159, 159, 0.952) !important;
+    }
+ }
+ 
+/* Medium devices (tablets, 768px and below) */
+@media (max-width: 768px) { 
+    .anecdote-span{
+        font-size: 15px;
+        word-spacing: 5px;
+    }
+    .au-title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: 3px;
+    }
+    
+    .my-videos{
+        width: 80vh;
+    }
+    #gallery-bg-video{
+        height:400px;
+    }
+    
+}
+/* Small devices (landscape phones, 576px below) */
+@media (max-width: 575.98px) { 
+    .mah-logo{
+        width: 30px;
+        height: 30px;
+    }
+    .mah-title{
+        font-size: 10px;
+    }
+    .anecdote-span{
+        font-size: 10px;
+        word-spacing: 5px;
+    }
+    .au-title{
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 3px;
+    }
+    .my-videos{
+        width: 60vh;
+    }
+    #gallery-bg-video{
+        height:300px;
+    }
+    
+    .nav-edits > a{
+        text-align: center;
+        font-size: 20px;
+    }
+    #myVideo, #home-section{
+       height: 400px; 
+    }
+    
+    .timeline-ul{
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 450px) { 
+    .my-videos{
+        width: 40vh;
+    }
 }
